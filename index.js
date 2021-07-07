@@ -3,7 +3,6 @@ const Discord = require('discord.js');
 const { measureMemory } = require('vm');
 const ytdl = require('ytdl-core');
 const fs = require('fs')
-const kunci = require('./key.json')
 
 const { YTSearcher } = require('ytsearcher');
 
