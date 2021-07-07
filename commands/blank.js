@@ -1,4 +1,4 @@
-module.exports.run = (client, message) => {
+module.exports.run = (client, message, args, queue, searcher) => {
     message.channel.send("just blank");
 }
 

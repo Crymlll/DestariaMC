@@ -1,6 +1,6 @@
 const {MessageEmbed} = require('discord.js');
 
-module.exports.run = (client, message) => {
+module.exports.run = (client, message, args, queue, searcher) => {
     const info = new MessageEmbed()
         .setTitle("Voting Site")
         .setThumbnail(client.user.displayAvatarURL())

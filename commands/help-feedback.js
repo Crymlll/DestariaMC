@@ -1,6 +1,6 @@
 const {MessageEmbed} = require('discord.js');
 
-module.exports.run = (client, message) => {
+module.exports.run = (client, message, args, queue, searcher) => {
     const helpEmbed = new MessageEmbed()
             .setTitle('Support DestariaMC Bot')
             .setDescription('Feedback Langsung Chat staff aja')

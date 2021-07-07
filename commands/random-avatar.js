@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 
-module.exports.run = (client, message) => {
+module.exports.run = (client, message, args, queue, searcher) => {
     const embed = new Discord.MessageEmbed()
 
     if(!message.mentions.users.first()){

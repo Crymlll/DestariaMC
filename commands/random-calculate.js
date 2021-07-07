@@ -2,7 +2,7 @@ const math = require('mathjs');
 
 const Discord = require('discord.js');
 
-module.exports.run = (client, message, args) => {
+module.exports.run = (client, message, args, queue, searcher) => {
     if(!args[0]) return message.channel.send('Please provide a question');
 
     let resp;

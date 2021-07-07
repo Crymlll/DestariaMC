@@ -1,4 +1,4 @@
-module.exports.run = (client, message, args) => {
+module.exports.run = (client, message, args, queue, searcher) => {
     message.delete();
     if (!message.member.hasPermission("MANAGE_MESSAGES"))
         return message.reply("You don't have the required permissions to use this command.").then(m => m.delete(5000));
