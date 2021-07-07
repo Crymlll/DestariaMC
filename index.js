@@ -1,9 +1,16 @@
 const { executionAsyncResource } = require('async_hooks');
 const Discord = require('discord.js');
 const { measureMemory } = require('vm');
+const ytdl = require('ytdl-core');
 const fs = require('fs')
 const kunci = require('./key.json')
 
+const { YTSearcher } = require('ytsearcher');
+
+const searcher = new YTSearcher({
+    key: process.env.YTSearcher,
+    revealed: true
+});
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
