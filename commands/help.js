@@ -6,8 +6,14 @@ module.exports.run = (client, message, args, queue, searcher) => {
 
             .setThumbnail(client.user.displayAvatarURL())
             
-            .addField(':question: help :question: ', 
-            '• tutorial\n• vote\n• donation\n• stafflist', true)
+            .addField(':question:  Help  :question: ', 
+            '• ip\n• discord\n• info\n• donation', true)
+
+            .addField(':bulb:  Tutorial  :bulb: ', 
+            '• warp\n• claim\n• shop', true)
+
+            .addField(':roll_of_paper:  Random  :roll_of_paper: ', 
+            '• avatar\n• meme\n• ping\n• calculator\n• say', true)
             
 
             .setColor('c70039')
