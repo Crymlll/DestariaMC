@@ -6,5 +6,5 @@ module.exports.run = (client, message, args, queue, searcher) => {
 
 module.exports.config = {
     name: "hello",
-    aliases: ["hi", "hey", "yo","supp","hei","hai","hallo"]
+    aliases: ["hi", "hey", "yo","supp","hei","hai","hallo","halo","helo"]
 }

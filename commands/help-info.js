@@ -28,6 +28,6 @@ module.exports.run = (client, message, args, queue, searcher) => {
 }
 
 module.exports.config = {
-    name: "help",
-    aliases: ["help"]
+    name: "info",
+    aliases: ["information"]
 }
