@@ -7,19 +7,19 @@ module.exports.run = (client, message, args, queue, searcher) => {
             .setThumbnail(client.user.displayAvatarURL())
             
             .addField('Server Name', 
-            'DestariaMC Indonesia', true)
+            'DestariaMC Indonesia')
 
             .addField('Server IP', 
-            '**PLAY.DESTARIA.NET**', true)
+            '**PLAY.DESTARIA.NET**')
 
             .addField('Server Founder', 
-            'XiDS#9999', true)
+            'XiDS#9999')
 
             .addField('Server Owners', 
-            '• RzkySR#5555\n• AkuPakboii#2288\n• Sweetheart#7959', true)
+            '• RzkySR#5555\n• AkuPakboii#2288\n• Sweetheart#7959')
             
             .addField('Author', 
-            '• DragonCrymlll#9999', true)
+            '• DragonCrymlll#9999')
             
 
             .setColor('c70039')
