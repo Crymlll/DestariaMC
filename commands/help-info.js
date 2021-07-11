@@ -6,10 +6,10 @@ module.exports.run = (client, message, args, queue, searcher) => {
 
             .setThumbnail(client.user.displayAvatarURL())
             
-            addField('Server Name', 
+            .addField('Server Name', 
             'DestariaMC Indonesia', true)
 
-            addField('Server IP', 
+            .addField('Server IP', 
             '**PLAY.DESTARIA.NET**', true)
 
             .addField('Server Founder', 
