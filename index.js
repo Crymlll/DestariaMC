@@ -44,7 +44,7 @@ client.on("ready", () => {
         }, 1000 * 3);
         
         activity = setInterval(() => {
-            client.user.setActivity('play.destaria.net',{
+            client.user.setActivity('play.destaria.xyz',{
                 type : "PLAYING"
             }).catch(console.error);
         }, 1000 * 3);
